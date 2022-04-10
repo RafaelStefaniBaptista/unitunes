@@ -1,38 +1,87 @@
+* {
+  box-sizing: border-box;
+}
+
+body, html {
+  min-height: 100%;
+  background: #FFFFFF;
+}
+
+h1, h2, h3, h4, p {
+  margin: 0;
+}
+
 .home {
+  display: flex;
+  align-items: center;
+  height: 100vh;
+}
+
+.home__container {
+  margin: auto auto;
+  display: flex;
+  padding: 20px;
+}
+
+.home__logoWrapper {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.home__logo {
   display: flex;
 }
 
-.unitunes {
+.home__volume {
+  margin-bottom: 40px;
+}
+
+.home__unitunes {
+  margin-top: 10px;
   font-size: 96px;
   color: #114A9F;
   font-family: 'Convergence', sans-serif;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  margin-left: 10px;
 }
 
-.loginWrapper {
+.home__loginWrapper {
   display: grid;
+  grid-template-columns: 1fr 1fr;
   flex-direction: column;
+  align-items: center;
+  margin-left: 60px;
 }
 
-.login {
+.home__login {
   font-family: 'Poppins', sans-serif;
   font-weight: 700;
   font-size: 28px;
   line-height: 42px;
   color: #2F3367;
+  margin-bottom: 8px;
 }
 
-.line {
+.home__line {
   border: 1px solid #ECECF0;
   width: 443px;
+  height: 0;
+  grid-column: span 2;
+  margin: 33px 0 30px;
 }
 
-.user {
+.home__user {
   display: flex;
   align-items: center;
+  grid-column: span 2;
+  margin-bottom: 55px;
 }
 
-.welcome {
+.home__welcome {
+  margin-left: 20px;
   font-family: 'Poppins';
   font-weight: 500;
   font-size: 18px;
@@ -40,21 +89,26 @@
   color: #6B6D92;
 }
 
-.please {
+.home__please {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 16px;
   color: #303468;
+  grid-column: span 2;
+  margin-bottom: 44px;
 }
 
-.other {
+.home__other {
   font-weight: 600;
   font-size: 16px;
   font-family: 'Poppins', sans-serif;
   color: #007DFA;
+  max-width: 161px;
+  text-align: center;
 }
 
-.loginButton {
+.home__loginButton {
+  grid-column: 2;
   font-family: 'Poppins';
   text-decoration: none;
   font-weight: 600;
@@ -71,7 +125,22 @@
   justify-content: space-between;
 }
 
-.arrowRight {
+.home__arrowRight {
   width: 12px;
 }
 
+.home__noAccount {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #4C4F7C;
+}
+
+.home__loginAccount {
+  font-family: 'Poppins';
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  color: #007DFA;
+}
