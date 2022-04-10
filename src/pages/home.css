@@ -1,0 +1,77 @@
+.home {
+  display: flex;
+}
+
+.unitunes {
+  font-size: 96px;
+  color: #114A9F;
+  font-family: 'Convergence', sans-serif;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+.loginWrapper {
+  display: grid;
+  flex-direction: column;
+}
+
+.login {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 42px;
+  color: #2F3367;
+}
+
+.line {
+  border: 1px solid #ECECF0;
+  width: 443px;
+}
+
+.user {
+  display: flex;
+  align-items: center;
+}
+
+.welcome {
+  font-family: 'Poppins';
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  color: #6B6D92;
+}
+
+.please {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #303468;
+}
+
+.other {
+  font-weight: 600;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: #007DFA;
+}
+
+.loginButton {
+  font-family: 'Poppins';
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 33px;
+  background: #007DFA;
+  width: 176px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  padding: 19px;
+  color: #FFFFFF;
+  border-radius: 8px;
+  justify-content: space-between;
+}
+
+.arrowRight {
+  width: 12px;
+}
+
