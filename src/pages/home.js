@@ -26,7 +26,7 @@ function Home() {
           <div className='home__user'>
             <img src={maria} className='home__maria' />
             <p className='home__welcome'>
-              Bem vinda novamente , Maria  
+              Bem vinda novamente, Maria  
             </p>
           </div>
           <p className='home__other'>
