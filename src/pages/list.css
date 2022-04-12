@@ -20,6 +20,7 @@
 
 .card {
   max-width: 240px;
+  cursor: pointer;
 }
 
 .cardText {
@@ -28,4 +29,8 @@
   font-weight: 300;
   font-size: 18px;
   line-height: 21px;
+}
+
+.image {
+  width: 240px;
 }

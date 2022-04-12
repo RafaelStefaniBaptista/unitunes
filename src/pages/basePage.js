@@ -4,7 +4,7 @@ import PlayBar from '../component/playBar';
 import { NavLink } from 'react-router-dom';
 import user from '../images/user.svg'
 
-function BasePage({children}) {
+function BasePage({children, isPlaying, playAudio}) {
   return (
     <div className="basePage">
       <NavLink to="/user" className='basePage__user'>
@@ -14,7 +14,7 @@ function BasePage({children}) {
         <SideBar />
         {children}
       </div>
-      <PlayBar />
+      <PlayBar playAudio={playAudio} isPlaying={isPlaying} />
     </div>
   );
 }
